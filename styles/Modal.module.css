@@ -1,0 +1,32 @@
+.modalwrapper {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.modalcontainer {
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding: 20px;
+}
+.result {
+    padding: 10px;
+    color: #5b006e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.button {
+    background-color: #A960D9;
+    cursor: pointer;
+    border-radius: 16px;
+    margin: 5px;
+    padding: 10px;
+    color: #6e004f;
+}

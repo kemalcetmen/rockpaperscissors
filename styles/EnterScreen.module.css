@@ -1,0 +1,24 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+.playButtons {
+    padding: 16px;
+    background-color: pink;
+    margin: 40px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.buttons {
+    display: flex;
+    margin: 32px;
+}
+.playText {
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 60px;
+}

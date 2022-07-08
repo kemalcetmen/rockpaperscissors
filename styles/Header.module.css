@@ -1,0 +1,78 @@
+.wrapper {
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.signout {
+    background-color: purple;
+    padding-left: 5px;
+}
+.button {
+    width:90px;
+    padding: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    margin:2px;
+}
+.exit {
+    background-color: #8821b5;
+    color:#12496b;
+}
+.points {
+    display: flex;
+    padding: 4px;
+    height: 64px;
+    background-color: #A260D9;
+    border-radius: 16px;
+}
+.point {
+    border-radius: 16px;
+    padding: 4px 16px;
+    margin-right: 4px;
+    background-color:  #A960D9;
+}
+.buttons {
+    display: flex;
+    padding: 4px;
+    height: 64px;
+    flex-direction: column;
+}
+
+
+
+
+.connectButtonCon {
+    padding: 4px;
+    border-radius: 16px;
+    background-color: #A960D9;
+    cursor: pointer;
+}
+
+.connectedWallet {
+    padding: 16px;
+    height: 64px;
+    border-radius: 16px;
+    background-color: #A960D9;
+}
+.pointsInWallet {
+    padding:4px 16px;
+    max-height: 64px;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #A960D9;
+}
+
+
+.uploadButton {
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color:  #A960D9;
+}
