@@ -9,18 +9,6 @@ import { getDatabase, ref, set, get} from "firebase/database";
 
 import config from "./config";
 
-/* config like this
- config = {
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
-    measurementId: ""
-} */
-
 const app = initializeApp(config)
 const auth = getAuth();
 const db = getDatabase();
