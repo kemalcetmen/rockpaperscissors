@@ -30,3 +30,8 @@
     padding: 10px;
     color: #6e004f;
 }
+@media screen and (max-width: 1024px) {
+    .result {
+        font-size: 30px;
+    }
+}

@@ -132,9 +132,9 @@ const OnlineGame = ({user,setInGame}) => {
             <Stars starNumber={myScore}/>
           </div>
           <div className={styles.images}>
-            {choices.map((one,i)=>
+            {!isGameEnd && choices.map((one,i)=>
               <div key={one} className={`${styles.oneImage} ${myChoice && myChoice !== one && styles.unselected} ${!myChoice && styles.selectable }`}>
-                <Image key={i} src={picFinder(one)} alt="" width={120} height={165} onClick={() =>{picking(one)}}/>
+                <Image key={i} src={picFinder(one)} alt="" fill onClick={() =>{picking(one)}}/>
               </div>)}
           </div>
         </div>
@@ -146,9 +146,11 @@ const OnlineGame = ({user,setInGame}) => {
             <Stars starNumber={computerScore}/>
           </div>
           <div className={styles.images}>
-            {computerChoice ?
-             <Image src={picFinder(computerChoice)} alt="" width={120} height={165}/>
-            : <CircleLoader size="100px"/>}
+            {!isGameEnd && (computerChoice ?
+            <div className={styles.oneImage}>
+              <Image src={picFinder(computerChoice)} alt="" fill/>
+            </div>
+            : <CircleLoader size="100px"/>)}
           </div>
         </div>
       </div>

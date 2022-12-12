@@ -7,18 +7,31 @@
     font-size: xx-large;
 }
 .playButtons {
-    padding: 16px;
-    background-color: pink;
-    margin: 40px;
-    cursor: pointer;
-    border-radius: 16px;
+    padding: 40px;
 }
 .buttons {
     display: flex;
-    margin: 32px;
+}
+.text {
+    background-color: pink;
+    padding: 10px;
+    width: 180px;
+    cursor: pointer;
+    border-radius: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
 }
 .playText {
     padding: 16px;
     border-radius: 16px;
     font-size: 60px;
+}
+@media screen and (max-width: 1024px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .playButtons {
+    padding: 25px;
+}
 }

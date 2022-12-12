@@ -1,13 +1,10 @@
 .wrapper {
-    padding: 16px;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     font-size: large;
-    position: fixed;
-    left: 0;
-    top: 0;
+    padding: 4px;
 }
 .signout {
     background-color: purple;
@@ -19,7 +16,6 @@
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
-    margin:2px;
 }
 .exit {
     background-color: #8821b5;
@@ -40,14 +36,10 @@
 }
 .buttons {
     display: flex;
-    padding: 4px;
     height: 64px;
     flex-direction: column;
 }
-
-
-
-
+/*
 .connectButtonCon {
     padding: 4px;
     border-radius: 16px;
@@ -75,4 +67,4 @@
     cursor: pointer;
     border-radius: 16px;
     background-color:  #A960D9;
-}
+} */

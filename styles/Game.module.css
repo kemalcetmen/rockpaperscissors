@@ -5,12 +5,12 @@
     font-size: 60px; 
 }
 .images {
-    height: 30vh ;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top:4vh;
+    margin: auto;
 }
 .containers {
     width: 100%;
@@ -28,36 +28,63 @@
     cursor: pointer;
 }
 .modalbuttoncontainer {
-    width: 3%;
-    align-items: center;    
+    display: flex;
+    width: 2vw;
+    align-items: flex-start;    
     justify-content: center;
+    padding-top: 3vw;
 }
 .onecontainer {
     display: flex;
-    margin: 64px ;
-    width: 50%;
+    width: 49vw;
+    height: 49vw;
     justify-content: center;
-    height: 100%;
+    max-height: 65vh;
     flex-direction: column;
     align-items: center;
 }
 .oneImage {
-    margin-right: 10px;
-    margin-left: 10px;}
+    position: relative;
+    width: 20.3%;
+}
 .text {
     font-size: xx-large;
 }
 .unselected {
-    display: none;
+    visibility: hidden;
 }
 .selectable {
     cursor: pointer;
 }
 .sitBar {
-    height: 20px;
+    height: 5vh;
     color: orange;
     display: flex;
     text-transform: uppercase;
     align-items: center;
     justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+    .containers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .onecontainer {
+        width: 35vh;
+        height: 35vh;
+        max-width: 100vw;
+    }
+    .modalbuttoncontainer {
+        position: absolute;
+        height: auto;
+        width:35vh;
+        max-width: 100vw;
+        padding-top: 0;
+        padding-left: 1vh;
+        margin-bottom: 21vh;
+    }
+    .oneImage {
+        position: relative;
+        width: 33.3%;
+    }
 }

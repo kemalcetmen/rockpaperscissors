@@ -27,7 +27,6 @@ const Stars = ({starNumber}) => {
           display: flex;
           align-items: center;
           justify-content: center;
-          padding:1px;
         }
       `}</style>
       {rows}
