@@ -9,12 +9,12 @@ const EnterScreen = ({ playWith, user }) => {
         play with
       </div>
       <div className={ styles.buttons }>
-        <div className={ styles.playButtons }>
+        {/* <div className={ styles.playButtons }>
           <div className={ styles.text }>Friend</div>
         </div>
         <div className={ styles.playButtons }>
           <div className={ styles.text }>Stranger</div>
-        </div>
+        </div> */}
         <div className={ styles.playButtons }>
           <div className={ styles.text } onClick={ () => { playWith("computer"), playWithComputer() } }>Computer</div>
         </div>
